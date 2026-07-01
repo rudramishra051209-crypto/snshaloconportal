@@ -1,0 +1,8 @@
+{
+  "name": "Remix: St. Norbert School - HALOCON Selection Portal",
+  "description": "Student registration and selection portal of St. Norbert School (SNS) for the HALOCON DPS national technical symposium.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
