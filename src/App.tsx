@@ -8,12 +8,12 @@ import { Calendar, School, PhoneCall, Mail, GraduationCap } from "lucide-react";
 // Updated: recoil now opens youtube.com as requested
 const FORM_LINKS: Record<string, string> = {
   recoil: "https://youtube.com",
-  encode: "https://docs.google.com/forms/d/e/1FAIpQLSd7-encode-programming/viewform",
-  qurious: "https://docs.google.com/forms/d/e/1FAIpQLScY-qurious-trivia/viewform",
-  monochrome: "https://docs.google.com/forms/d/e/1FAIpQLSdG-monochrome-photography/viewform",
-  "pixel-perfect": "https://docs.google.com/forms/d/e/1FAIpQLScP-pixel-perfect-design/viewform",
-  kinetiq: "https://docs.google.com/forms/d/e/1FAIpQLSfZ-kinetiq-artificial-intelligence/viewform",
-  cinephila: "https://docs.google.com/forms/d/e/1FAIpQLSeK-cinephila-filmmaking/viewform",
+  encode: "https://youtube.com",
+  qurious: "https://youtube.com",
+  monochrome: "https://youtube.com",
+  "pixel-perfect": "https://youtube.com",
+  kinetiq: "https://youtube.com",
+  cinephila: "https://youtube.com",
 };
 
 export default function App() {
@@ -142,7 +142,7 @@ export default function App() {
               <CompetitionCard
                 key={comp.id}
                 competition={comp}
-                formLink={FORM_LINKS[comp.id] || "https://docs.google.com/forms"}
+                formLink={FORM_LINKS[comp.id] || "https://youtube.com"}
               />
             ))}
           </div>
